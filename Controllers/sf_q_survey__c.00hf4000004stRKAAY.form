@@ -1,0 +1,40 @@
+﻿<EntityForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0" flexi="0" fleximode="1" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>sf_q_survey__c</EntityName>
+  <CamelCase>sf_q_survey__c</CamelCase>
+  <PrimaryCommands>!defcmd</PrimaryCommands>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab">
+      <Name>General</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="name"/>
+        <DetailItem SchemaName="account__c"/>
+        <DetailItem SchemaName="stage__c"/>
+        <DetailItem SchemaName="data_updates__c"/>
+        <DetailItem SchemaName="loan_payment_8__c"/>
+        <DetailItem SchemaName="Short Form 8" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_sf8_general_health__c"/>
+        <DetailItem SchemaName="sf8_physical_health_limit_daily_activity__c"/>
+        <DetailItem SchemaName="r_iq_sf8_difficulty_with_daily_work__c"/>
+        <DetailItem SchemaName="r_iq_sf8_bodily_pain__c"/>
+        <DetailItem SchemaName="r_iq_sf8_energy__c"/>
+        <DetailItem SchemaName="sf8_problems_limit_social_activity__c"/>
+        <DetailItem SchemaName="r_iq_sf8_emotional_problems__c"/>
+        <DetailItem SchemaName="sf8_emotional_prob_limit_days_activity__c"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Crop_Production_Details</Name>
+      <CustomName>Crop_Production_Details</CustomName>
+      <Binding SchemaName="sf_crop_production_detail__c.survey_fields__c"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Crops</Name>
+      <CustomName>Crops</CustomName>
+      <Binding SchemaName="sf_crop_production__c.survey_fields__c"/>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>

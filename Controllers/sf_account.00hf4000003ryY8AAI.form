@@ -1,0 +1,154 @@
+﻿<EntityForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0" flexi="0" fleximode="1" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>sf_account</EntityName>
+  <CamelCase>sf_account</CamelCase>
+  <PrimaryCommands>!defcmd</PrimaryCommands>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab">
+      <Name>General</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="name"/>
+        <DetailItem SchemaName="recordtypeid"/>
+        <DetailItem SchemaName="type"/>
+        <DetailItem SchemaName="npe01__one2onecontact__c"/>
+        <DetailItem SchemaName="status__c"/>
+        <DetailItem SchemaName="birthdate__c"/>
+        <DetailItem SchemaName="marital_status__c"/>
+        <DetailItem SchemaName="household_status__c"/>
+        <DetailItem SchemaName="district__c"/>
+        <DetailItem SchemaName="subcounty__c"/>
+        <DetailItem SchemaName="cohort__c"/>
+        <DetailItem SchemaName="phone"/>
+        <DetailItem SchemaName="fax"/>
+        <DetailItem SchemaName="website"/>
+        <DetailItem SchemaName="Address" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="billingstreet"/>
+        <DetailItem SchemaName="billingcity"/>
+        <DetailItem SchemaName="billingstate"/>
+        <DetailItem SchemaName="billingpostalcode"/>
+        <DetailItem SchemaName="billingcountry"/>
+        <DetailItem SchemaName="shippingstreet"/>
+        <DetailItem SchemaName="shippingcity"/>
+        <DetailItem SchemaName="shippingstate"/>
+        <DetailItem SchemaName="shippingpostalcode"/>
+        <DetailItem SchemaName="shippingcountry"/>
+        <DetailItem SchemaName="Description" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="description"/>
+        <DetailItem SchemaName="Donation Information" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="npo02__firstclosedate__c"/>
+        <DetailItem SchemaName="npo02__lastclosedate__c"/>
+        <DetailItem SchemaName="npo02__averageamount__c"/>
+        <DetailItem SchemaName="npo02__best_gift_year__c"/>
+        <DetailItem SchemaName="npo02__lastoppamount__c"/>
+        <DetailItem SchemaName="npo02__largestamount__c"/>
+        <DetailItem SchemaName="npo02__smallestamount__c"/>
+        <DetailItem SchemaName="npo02__best_gift_year_total__c"/>
+        <DetailItem SchemaName="Donation Totals" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="npo02__totaloppamount__c"/>
+        <DetailItem SchemaName="npo02__oppamountlastndays__c"/>
+        <DetailItem SchemaName="npo02__oppamountthisyear__c"/>
+        <DetailItem SchemaName="npo02__oppamountlastyear__c"/>
+        <DetailItem SchemaName="npo02__oppamount2yearsago__c"/>
+        <DetailItem SchemaName="npo02__numberofclosedopps__c"/>
+        <DetailItem SchemaName="npo02__oppsclosedlastndays__c"/>
+        <DetailItem SchemaName="npo02__oppsclosedthisyear__c"/>
+        <DetailItem SchemaName="npo02__oppsclosedlastyear__c"/>
+        <DetailItem SchemaName="npo02__oppsclosed2yearsago__c"/>
+        <DetailItem SchemaName="Matching Gift Information" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="npsp__matching_gift_company__c"/>
+        <DetailItem SchemaName="npsp__matching_gift_percent__c"/>
+        <DetailItem SchemaName="npsp__matching_gift_administrator_name__c"/>
+        <DetailItem SchemaName="npsp__matching_gift_email__c"/>
+        <DetailItem SchemaName="npsp__matching_gift_phone__c"/>
+        <DetailItem SchemaName="npsp__matching_gift_comments__c"/>
+        <DetailItem SchemaName="npsp__matching_gift_info_updated__c"/>
+        <DetailItem SchemaName="npsp__matching_gift_annual_employee_max__c"/>
+        <DetailItem SchemaName="npsp__matching_gift_amount_max__c"/>
+        <DetailItem SchemaName="npsp__matching_gift_amount_min__c"/>
+        <DetailItem SchemaName="npsp__matching_gift_request_deadline__c"/>
+        <DetailItem SchemaName="Membership Information" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="npo02__totalmembershipoppamount__c"/>
+        <DetailItem SchemaName="npo02__membershipenddate__c"/>
+        <DetailItem SchemaName="npo02__lastmembershiplevel__c"/>
+        <DetailItem SchemaName="npo02__membershipjoindate__c"/>
+        <DetailItem SchemaName="npo02__lastmembershipdate__c"/>
+        <DetailItem SchemaName="npo02__lastmembershipamount__c"/>
+        <DetailItem SchemaName="npo02__lastmembershiporigin__c"/>
+        <DetailItem SchemaName="npo02__numberofmembershipopps__c"/>
+        <DetailItem SchemaName="Grantmaking Information" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="npsp__funding_focus__c"/>
+        <DetailItem SchemaName="npsp__grantmaker__c"/>
+        <DetailItem SchemaName="System Information" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="ownerid2"/>
+        <DetailItem SchemaName="parentid"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>npe5__Affiliations</Name>
+      <CustomName>npe5__Affiliations</CustomName>
+      <Binding SchemaName="sf_npe5__affiliation__c.npe5__organization__c"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Opportunities</Name>
+      <CustomName>Opportunities</CustomName>
+      <Binding SchemaName="sf_opportunity.accountid"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>npe03</Name>
+      <CustomName>npe03</CustomName>
+      <Binding SchemaName="sf_npe03__recurring_donation__c.npe03__organization__c"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>npsp__Addresses</Name>
+      <CustomName>npsp__Addresses</CustomName>
+      <Binding SchemaName="sf_npsp__address__c.npsp__household_account__c"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>npsp__Action_Plans</Name>
+      <CustomName>npsp__Action_Plans</CustomName>
+      <Binding SchemaName="sf_npsp__engagement_plan__c.npsp__account__c"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Events</Name>
+      <CustomName>Events</CustomName>
+      <Binding SchemaName="sf_event.accountid"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Tasks</Name>
+      <CustomName>Tasks</CustomName>
+      <Binding SchemaName="sf_task.accountid"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Attachments</Name>
+      <CustomName>Attachments</CustomName>
+      <Binding SchemaName="sf_attachment.parentid"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Files</Name>
+      <CustomName>Files</CustomName>
+      <Binding SchemaName="sf_contentdocumentlink.linkedentityid"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Surveys</Name>
+      <CustomName>Surveys</CustomName>
+      <Binding SchemaName="sf_q_survey__c.account__c"/>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>

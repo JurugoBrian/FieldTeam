@@ -1,0 +1,86 @@
+﻿<EntityForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0" flexi="0" fleximode="1" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>sf_q_survey__c</EntityName>
+  <CamelCase>sf_q_survey__c</CamelCase>
+  <PrimaryCommands>!defcmd</PrimaryCommands>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab">
+      <Name>General</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="account__c"/>
+        <DetailItem SchemaName="stage__c"/>
+        <DetailItem SchemaName="data_updates__c"/>
+        <DetailItem SchemaName="loan_payment_8__c"/>
+        <DetailItem SchemaName="Domains" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_cic_domain_community__c"/>
+        <DetailItem SchemaName="r_cic_domain_family__c"/>
+        <DetailItem SchemaName="r_cic_domain_self__c"/>
+        <DetailItem SchemaName="r_cic_domain_environment__c"/>
+        <DetailItem SchemaName="r_cic_domain_god__c"/>
+        <DetailItem SchemaName="r_cic_domain_community_score__c"/>
+        <DetailItem SchemaName="r_cic_domain_family_score__c"/>
+        <DetailItem SchemaName="r_cic_domain_self_score__c"/>
+        <DetailItem SchemaName="r_cic_domain_environment_score__c"/>
+        <DetailItem SchemaName="r_cic_domain_god_score__c"/>
+        <DetailItem SchemaName="Well Being" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_shalom_loving_relationship_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_loving_relationship_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_relationship_w_divine_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_relationship_w_divine_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_forgiveness_towards_others_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_forgiveness_others_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_connection_with_nature_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_connection_with_nature_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_sense_of_identity_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_sense_of_identity_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_worship_of_creator_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_worship_of_creator_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_awe_at_breathtaking_view_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_awe_at_breathtaking_view_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_trust_between_indiv_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_trust_between_indiv_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_self_awareness_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_self_awareness_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_oneness_with_nature_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_oneness_with_nature_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_oneness_with_god_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_oneness_with_god_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_harmony_with_environment_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_harmony_with_environment_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_peace_with_god_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_peace_with_god_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_joy_in_life_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_joy_in_life_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_prayer_life_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_prayer_life_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_inner_peace_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_inner_peace_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_respect_for_others_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_respect_for_others_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_meaning_in_life_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_meaning_in_life_b__c"/>
+        <DetailItem SchemaName="r_shalom_kindness_towards_others_a__c"/>
+        <DetailItem SchemaName="r_iq_shalom_kindness_towards_others_b__c"/>
+        <DetailItem SchemaName="r_shalom_magic_in_environment_a__c"/>
+        <DetailItem SchemaName="r_shalom_magic_in_environment_b__c"/>
+        <DetailItem SchemaName="r_iq_shalom_importance_of_religion__c"/>
+        <DetailItem SchemaName="r_iq_shalom_importance_of_spirituality__c"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Crop_Production_Details</Name>
+      <CustomName>Crop_Production_Details</CustomName>
+      <Binding SchemaName="sf_crop_production_detail__c.survey_fields__c"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Crops</Name>
+      <CustomName>Crops</CustomName>
+      <Binding SchemaName="sf_crop_production__c.survey_fields__c"/>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>

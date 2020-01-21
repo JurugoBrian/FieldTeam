@@ -1,0 +1,105 @@
+﻿<EntityForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0" flexi="0" fleximode="1" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>sf_q_survey__c</EntityName>
+  <CamelCase>sf_q_survey__c</CamelCase>
+  <PrimaryCommands>!defcmd</PrimaryCommands>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab">
+      <Name>General</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="name"/>
+        <DetailItem SchemaName="account__c"/>
+        <DetailItem SchemaName="stage__c"/>
+        <DetailItem SchemaName="data_updates__c"/>
+        <DetailItem SchemaName="loan_payment_8__c"/>
+        <DetailItem SchemaName="Structural Social Capital" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_groups_y_n__c"/>
+        <DetailItem SchemaName="r_iq_groups_leadership_role__c"/>
+        <DetailItem SchemaName="r_iq_groups_actively_engaged__c"/>
+        <DetailItem SchemaName="r_iq_groups_of_groups__c"/>
+        <DetailItem SchemaName="r_iq_groups_of_leadership_roles__c"/>
+        <DetailItem SchemaName="important_group_same_family__c"/>
+        <DetailItem SchemaName="important_group_same_religion__c"/>
+        <DetailItem SchemaName="important_group_same_gender__c"/>
+        <DetailItem SchemaName="important_group_same_occupation__c"/>
+        <DetailItem SchemaName="important_group_same_age__c"/>
+        <DetailItem SchemaName="important_group_same_education__c"/>
+        <DetailItem SchemaName="r_iq_important_group_decision_making__c"/>
+        <DetailItem SchemaName="r_iq_important_group_effective_leaders__c"/>
+        <DetailItem SchemaName="r_iq_important_group_new_skills__c"/>
+        <DetailItem SchemaName="r_iq_primary_school_scenario__c"/>
+        <DetailItem SchemaName="r_iq_differences_education__c"/>
+        <DetailItem SchemaName="r_iq_differences_wealth__c"/>
+        <DetailItem SchemaName="r_iq_differences_landholdings__c"/>
+        <DetailItem SchemaName="r_iq_differences_social_status__c"/>
+        <DetailItem SchemaName="r_iq_differences_gender__c"/>
+        <DetailItem SchemaName="r_iq_differences_age__c"/>
+        <DetailItem SchemaName="r_iq_differences_local_vs_newcomers__c"/>
+        <DetailItem SchemaName="r_iq_differences_politics__c"/>
+        <DetailItem SchemaName="r_iq_differences_ethnicity__c"/>
+        <DetailItem SchemaName="r_iq_differences_problems__c"/>
+        <DetailItem SchemaName="r_iq_differences_problems_lead_to_viol__c"/>
+        <DetailItem SchemaName="r_iq_differences_mediated_by_people__c"/>
+        <DetailItem SchemaName="r_iq_differences_mediated_by_family_me__c"/>
+        <DetailItem SchemaName="r_iq_differences_mediated_by_neighbors__c"/>
+        <DetailItem SchemaName="r_iq_differences_mediated_by_community__c"/>
+        <DetailItem SchemaName="r_iq_differences_mediated_by_religious__c"/>
+        <DetailItem SchemaName="r_iq_differences_mediated_by_judicial__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_education__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_health_services__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_job_training_or_e__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_credit_or_finance__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_transportation__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_water_distributio__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_sanitation__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_justice_or_confli__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_security_or_polic__c"/>
+        <DetailItem SchemaName="r_iq_services_denied_other_households__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_income__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_occupation__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_social_status__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_age__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_gender__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_tribe__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_language__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_religious_belief__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_political_affili__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_lack_of_educatio__c"/>
+        <DetailItem SchemaName="r_iq_services_reasons_returnee_status__c"/>
+        <DetailItem SchemaName="r_iq_positive_influence__c"/>
+        <DetailItem SchemaName="Cognitive Social Capital" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_csc_people_are_honest__c"/>
+        <DetailItem SchemaName="r_iq_csc_interested_in_own_welfare__c"/>
+        <DetailItem SchemaName="r_iq_csc_trustworthy_village__c"/>
+        <DetailItem SchemaName="r_iq_csc_taken_advantage_of__c"/>
+        <DetailItem SchemaName="r_iq_csc_always_help__c"/>
+        <DetailItem SchemaName="r_iq_csc_disregard_opinions_of_others__c"/>
+        <DetailItem SchemaName="r_iq_csc_willing_to_help__c"/>
+        <DetailItem SchemaName="r_iq_csc_village_has_prospered__c"/>
+        <DetailItem SchemaName="r_iq_csc_feel_accepted__c"/>
+        <DetailItem SchemaName="r_iq_village_peaceful_or_conflictive__c"/>
+        <DetailItem SchemaName="r_iq_village_more_or_less_conflict__c"/>
+        <DetailItem SchemaName="r_iq_contribution_to_development__c"/>
+        <DetailItem SchemaName="r_iq_contribution_to_development_descr__c"/>
+        <DetailItem SchemaName="r_iq_harmonious_relationships__c"/>
+        <DetailItem SchemaName="r_iq_harmonious_relationships_comparat__c"/>
+        <DetailItem SchemaName="r_iq_conflict_resolution_party__c"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Crop_Production_Details</Name>
+      <CustomName>Crop_Production_Details</CustomName>
+      <Binding SchemaName="sf_crop_production_detail__c.survey_fields__c"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Crops</Name>
+      <CustomName>Crops</CustomName>
+      <Binding SchemaName="sf_crop_production__c.survey_fields__c"/>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>

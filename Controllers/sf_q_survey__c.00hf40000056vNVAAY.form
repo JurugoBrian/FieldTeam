@@ -1,0 +1,112 @@
+﻿<EntityForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:dummy="0" flexi="0" fleximode="1" fullscreen="0" resize="0" version="2">
+  <IsContactForm>false</IsContactForm>
+  <EntityName>sf_q_survey__c</EntityName>
+  <CamelCase>sf_q_survey__c</CamelCase>
+  <PrimaryCommands>!defcmd</PrimaryCommands>
+  <EnabledWorkflows>OnLoadEnabled OnChangeEnabled OnSaveEnabled OnExecuteCommand OnCanExecuteCommand</EnabledWorkflows>
+  <SerializedChildrenV2>
+    <FormTab xsi:type="DetailTab">
+      <Name>General</Name>
+      <SerializedChildren>
+        <DetailItem SchemaName="Report Details" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="account__c"/>
+        <DetailItem SchemaName="stage__c"/>
+        <DetailItem SchemaName="data_updates__c"/>
+        <DetailItem SchemaName="name"/>
+        <DetailItem SchemaName="Crop Income" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="crop_fields__c"/>
+        <DetailItem SchemaName="Household Infrastructure" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="adults_in_hh__c"/>
+        <DetailItem SchemaName="children_in_hh__c"/>
+        <DetailItem SchemaName="r_mu_client_home_rooms__c"/>
+        <DetailItem SchemaName="r_iq_ppi_lighting_source__c"/>
+        <DetailItem SchemaName="r_hs_enough_bed_nets__c"/>
+        <DetailItem SchemaName="r_hs_sanitary_drying_rack__c"/>
+        <DetailItem SchemaName="r_hs_cooking_house__c"/>
+        <DetailItem SchemaName="r_mu_drinking_water_type__c"/>
+        <DetailItem SchemaName="r_iq_ppi_toilet_type__c"/>
+        <DetailItem SchemaName="r_iq_ppi_construction_material_roof__c"/>
+        <DetailItem SchemaName="r_hs_floor_type__c"/>
+        <DetailItem SchemaName="r_iq_ppi_construction_material_wall__c"/>
+        <DetailItem SchemaName="Income and Wealth" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_income_wages_and_salaries__c"/>
+        <DetailItem SchemaName="r_mu_income_rentals__c"/>
+        <DetailItem SchemaName="r_iq_income_pension__c"/>
+        <DetailItem SchemaName="r_iq_income_ngo_assistance_remittances__c"/>
+        <DetailItem SchemaName="r_iq_income_government__c"/>
+        <DetailItem SchemaName="r_hs_iga_produce_selling__c"/>
+        <DetailItem SchemaName="r_hs_iga_kiosks__c"/>
+        <DetailItem SchemaName="r_hs_iga_grocery__c"/>
+        <DetailItem SchemaName="r_hs_iga_poultry__c"/>
+        <DetailItem SchemaName="r_hs_iga_piggery__c"/>
+        <DetailItem SchemaName="r_hs_iga_food_processing__c"/>
+        <DetailItem SchemaName="r_hs_iga_apiary__c"/>
+        <DetailItem SchemaName="r_hs_iga_transport__c"/>
+        <DetailItem SchemaName="r_hs_iga_other__c"/>
+        <DetailItem SchemaName="r_mu_asset_cows__c"/>
+        <DetailItem SchemaName="r_mu_asset_goats__c"/>
+        <DetailItem SchemaName="r_mu_asset_chickens__c"/>
+        <DetailItem SchemaName="r_mu_asset_pigs__c"/>
+        <DetailItem SchemaName="asset_duck__c"/>
+        <DetailItem SchemaName="asset_turkey__c"/>
+        <DetailItem SchemaName="r_mu_asset_other_animal__c"/>
+        <DetailItem SchemaName="asset_other_animal_value__c"/>
+        <DetailItem SchemaName="r_mu_asset_motorbike__c"/>
+        <DetailItem SchemaName="r_mu_asset_ox_plow__c"/>
+        <DetailItem SchemaName="r_mu_asset_bicycle__c"/>
+        <DetailItem SchemaName="r_mu_asset_other_asset__c"/>
+        <DetailItem SchemaName="asset_other_value__c"/>
+        <DetailItem SchemaName="asset_other_notes__c"/>
+        <DetailItem SchemaName="r_mu_saving_value_capable_products__c"/>
+        <DetailItem SchemaName="r_mu_saving_value_savings_group__c"/>
+        <DetailItem SchemaName="r_mu_saving_value_financial_institutio__c"/>
+        <DetailItem SchemaName="r_iq_noncapable_loan_y_n__c"/>
+        <DetailItem SchemaName="r_iq_noncapable_loan_value__c"/>
+        <DetailItem SchemaName="Education" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="fal_attendance__c"/>
+        <DetailItem SchemaName="children_enrolled_in_school__c"/>
+        <DetailItem SchemaName="r_hs_literacy_y_n__c"/>
+        <DetailItem SchemaName="r_hs_literacy_illiterate__c"/>
+        <DetailItem SchemaName="r_hs_numeracy_y_n__c"/>
+        <DetailItem SchemaName="r_hs_numeracy_nonnumerate__c"/>
+        <DetailItem SchemaName="Self Esteem" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_iq_rse_satisfied_with_self__c"/>
+        <DetailItem SchemaName="r_iq_rse_i_m_no_good__c"/>
+        <DetailItem SchemaName="r_iq_rse_good_qualities__c"/>
+        <DetailItem SchemaName="r_iq_rse_do_things_well__c"/>
+        <DetailItem SchemaName="r_iq_rse_not_much_to_be_proud_of__c"/>
+        <DetailItem SchemaName="r_iq_rse_fell_useless__c"/>
+        <DetailItem SchemaName="r_iq_rse_a_person_of_worth__c"/>
+        <DetailItem SchemaName="r_iq_rse_respect_for_myself__c"/>
+        <DetailItem SchemaName="r_iq_rse_i_m_a_failure__c"/>
+        <DetailItem SchemaName="r_iq_rse_positive_attitude__c"/>
+        <DetailItem SchemaName="Baseline Info" separator="true" xsi:type="SeparatorDetailItem">
+          <IsConstant>true</IsConstant>
+        </DetailItem>
+        <DetailItem SchemaName="r_mu_composition_total_hh_members__c"/>
+      </SerializedChildren>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Crop_Production_Details</Name>
+      <CustomName>Crop_Production_Details</CustomName>
+      <Binding SchemaName="sf_crop_production_detail__c.survey_fields__c"/>
+    </FormTab>
+    <FormTab xsi:type="AssociatedTab">
+      <Name>Crops</Name>
+      <CustomName>Crops</CustomName>
+      <Binding SchemaName="sf_crop_production__c.survey_fields__c"/>
+    </FormTab>
+  </SerializedChildrenV2>
+</EntityForm>
